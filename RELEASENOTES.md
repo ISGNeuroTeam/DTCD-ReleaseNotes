@@ -1,3 +1,27 @@
+# [1.1.0] - Raw primitives and new property types in primitives
+
+### Added
+
+- Ability to create raw primitives by adding image and primitives description to the server.
+- Select with constant data or otl request data and switch inputs for primtive properties.
+- Default values for token in tokenStorage.
+- Switching tabs by URL query parameter on workspace.
+- Ability to create folder for workspaces on homepage.
+- Filtering and sorting workpsaces and folders.
+- New modal window to create workspaces.
+- "Loading" and "no data" status for graph list.
+- Error message while entering wrong login or password.
+
+### Changed
+
+- Transparancy on workspace panels in edit mode.
+
+### Fixed
+
+- Long values in select component no longer overflow.
+- DataSourceSelect create button not working.
+- Bug while editing property of primitive and selecting another one PropertiesPanel not switching to selected one.
+
 # [1.0.0] - DTCD release
 
 DataCAD is a single-page web application for building flexible user interfaces that can be extended and customized by plugins.
