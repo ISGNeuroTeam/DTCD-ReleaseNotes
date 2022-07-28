@@ -1,3 +1,10 @@
+# [1.2.0] - Workspace panels border settings
+
+### Added
+
+- Ability to customize the borders of the workspace panels.
+- New plugin - PrimitivePropertiesPanelCompact.
+
 # [1.1.0] - Raw primitives and new property types in primitives
 
 ### Added
