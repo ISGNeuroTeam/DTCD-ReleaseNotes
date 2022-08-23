@@ -1,3 +1,27 @@
+# [1.3.0]
+
+### Added
+
+- Error status to graph list if something goes wrong.
+- Role model to workspaces (it's possible to configure it through django admin panel, UI functionality will be implemented in next releases)
+- Extended electrical primitives extension with new primitives.
+- Config form now closes while deleting any element.
+
+### Changed
+
+- PrimitiveID generation moved to server, and it's now through whole model.
+
+### Fixed
+
+- Problem with saving graphs on server (red crosses, primitive duplicates)
+- Width and height of raw primitives swapped and works as expected.
+- Delete current graph button not working.
+- Workspace element colors are not applied or applied incorrectly.
+- Fields of dataset now maps correctly in BarChart visualization.
+- The value from the previous field type is not saved in PrimitivePropertiesPanel.
+- Selected column and value for input type "datasource" are shown correctly in PrimitivePropertiesPanel.
+- Error message disappears after fixing the failed request in PrimitivePropertiesPanel.
+
 # [1.2.0] - Workspace panels border settings
 
 ### Added
