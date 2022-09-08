@@ -1,3 +1,23 @@
+# [1.4.0] - Updated panels, custom primitive templates
+
+### Added
+
+- New plugin - GraphStructurePanel.
+- Ability to save primitive as custom template.
+- Saving edge bends in a graph.
+- Confirmation before deleting the graph from the server.
+
+### Changed
+
+- PrimitiveLibraryPanel UI and design.
+- PrimitivePropertiesPanel UI and design.
+
+### Fixed
+
+- Redirect to root folder after editing subfolder.
+- Drag and drop when importing dashboard file.
+- Workspace folder meta data is not saved on creation.
+
 # [1.3.0]
 
 ### Added
