@@ -1,3 +1,34 @@
+# [1.5.0] - New GUID format, PieChart visualization
+
+### Added
+
+- Aliases for systems without version to simplify interaction with them.
+- Notification bell with notification list.
+- Button to run datasources in the DatasourcePanel.
+- Additional settings for datasources in the DatasourcePanel.
+- Checking subscription and action forms in the EventSystemPanel.
+- Scroll to dropdown list of graphs in the LiveDashControlPanel.
+- Possibility of using expression property in datasource property.
+- User notification by new NotificationSystem plugin.
+- Saving the display type of primitives in the PrimitiveLibraryPanel.
+- The scrolling in the settings panel.
+- ID restoration from workspace config in order not to brake custom actions.
+- New PieChart visualization.
+- Additional settings for BarChart visualization.
+- Notification if the value is outside the boundaries in the Gauge visualization.
+- Ability to customize Table visualization using metadata.
+- Click event when clicking on PieChart, BarChart, Gauge and some other visualizations.
+
+### Changed
+
+- GUID format for panels and systems.
+
+### Fixed
+
+- Problem with label text resetting to `$this.primitiveID$` while copying nodes.
+- Bug with incorrect falsy values (null, false) in tokenStorage getRecord() method.
+- Workspace color and icon not imported.
+
 # [1.4.0] - Updated panels, custom primitive templates
 
 ### Added
