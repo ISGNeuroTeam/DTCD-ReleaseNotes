@@ -1,6 +1,30 @@
+# [1.6.0] - Custom template fragments
+
+## Added
+
+- Custom template fragments support.
+- Replacement of primitiveIDs loaded from file system in LiveDahPanel.
+- Drag and drop to tabs in workspace.
+- Ability for setting the X axis in Visualization-BarChart.
+- Ability to set the settings from the request in Visualization-Gauge.
+
+## Changed
+
+- Icon on node without children node in GraphStructurePanel.
+- `isColoredTitle` flag processing in Visualization-List.
+- Design of notifications.
+
+## Fixed
+
+- Graph renaming save in LiveDashPanel.
+- Manual adding of custom actions in EventSystemPanel.
+- Sync Datasource panels by `autorun` and `runOnTokenChange` params.
+- Access to the properties of primitives inside node labels in LiveDashPanel.
+- Visualization-Gauge out of range value color.
+
 # [1.5.0] - New GUID format, PieChart visualization
 
-### Added
+## Added
 
 - Aliases for systems without version to simplify interaction with them.
 - Notification bell with notification list.
@@ -19,11 +43,11 @@
 - Ability to customize Table visualization using metadata.
 - Click event when clicking on PieChart, BarChart, Gauge and some other visualizations.
 
-### Changed
+## Changed
 
 - GUID format for panels and systems.
 
-### Fixed
+## Fixed
 
 - Problem with label text resetting to `$this.primitiveID$` while copying nodes.
 - Bug with incorrect falsy values (null, false) in tokenStorage getRecord() method.
@@ -31,19 +55,19 @@
 
 # [1.4.0] - Updated panels, custom primitive templates
 
-### Added
+## Added
 
 - New plugin - GraphStructurePanel.
 - Ability to save primitive as custom template.
 - Saving edge bends in a graph.
 - Confirmation before deleting the graph from the server.
 
-### Changed
+## Changed
 
 - PrimitiveLibraryPanel UI and design.
 - PrimitivePropertiesPanel UI and design.
 
-### Fixed
+## Fixed
 
 - Redirect to root folder after editing subfolder.
 - Drag and drop when importing dashboard file.
@@ -51,18 +75,18 @@
 
 # [1.3.0]
 
-### Added
+## Added
 
 - Error status to graph list if something goes wrong.
 - Role model to workspaces (it's possible to configure it through django admin panel, UI functionality will be implemented in next releases)
 - Extended electrical primitives extension with new primitives.
 - Config form now closes while deleting any element.
 
-### Changed
+## Changed
 
 - PrimitiveID generation moved to server, and it's now through whole model.
 
-### Fixed
+## Fixed
 
 - Problem with saving graphs on server (red crosses, primitive duplicates)
 - Width and height of raw primitives swapped and works as expected.
@@ -75,14 +99,14 @@
 
 # [1.2.0] - Workspace panels border settings
 
-### Added
+## Added
 
 - Ability to customize the borders of the workspace panels.
 - New plugin - PrimitivePropertiesPanelCompact.
 
 # [1.1.0] - Raw primitives and new property types in primitives
 
-### Added
+## Added
 
 - Ability to create raw primitives by adding image and primitives description to the server.
 - Select with constant data or otl request data and switch inputs for primtive properties.
@@ -94,11 +118,11 @@
 - "Loading" and "no data" status for graph list.
 - Error message while entering wrong login or password.
 
-### Changed
+## Changed
 
 - Transparancy on workspace panels in edit mode.
 
-### Fixed
+## Fixed
 
 - Long values in select component no longer overflow.
 - DataSourceSelect create button not working.
