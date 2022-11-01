@@ -1,3 +1,17 @@
+# [1.7.0] - Updated GraphStructurePanel
+
+## Added
+
+- Some notifications when configuring workspaces on the main page.
+- Saving setting of notification position.
+- Displaying plugin version in the ConfigPanel.
+- New `selectNodeById()` method in LiveDashPanel.
+- Closing the graphlist when clicking outside it.
+
+## Changed
+
+- Graph structure visualization in GraphStructurePanel.
+
 # [1.6.0] - Custom template fragments
 
 ## Added
