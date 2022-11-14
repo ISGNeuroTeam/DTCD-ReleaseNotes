@@ -1,3 +1,15 @@
+# [1.8.0] - Manually adding ports
+
+### Added
+
+- Some notifications when saving workspace state.
+- The ability to manually add ports to the primitive.
+- Lexicographically sorted port list in PrimitivePropertiesPanel.
+
+### Changed
+
+- Max height of graph list.
+
 # [1.7.0] - Updated GraphStructurePanel
 
 ## Added
