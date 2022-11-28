@@ -1,12 +1,27 @@
+# [1.9.0] - Group nodes support
+
+## Added
+
+- Length limit in description and title of workspace element.
+- Cropping long name of workspace element.
+- Tooltip to workspace element title.
+- Length limit in tab title.
+- Group nodes support.
+- Some notifications when working with a graph.
+
+## Fixed
+
+- Error requesting more than 100 primitive IDs when opening a graph from a file.
+
 # [1.8.0] - Manually adding ports
 
-### Added
+## Added
 
 - Some notifications when saving workspace state.
 - The ability to manually add ports to the primitive.
 - Lexicographically sorted port list in PrimitivePropertiesPanel.
 
-### Changed
+## Changed
 
 - Max height of graph list.
 
