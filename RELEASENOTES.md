@@ -1,3 +1,19 @@
+# [1.10.0] - Group nodes folding
+
+## Added
+
+- Label for node ports.
+- Group nodes folding support.
+
+## Changed
+
+- Logical nodes port name format.
+
+## Fixed
+
+- Notification text of editing dashboard properties.
+- Opening the deleted graph from a config.
+
 # [1.9.0] - Group nodes support
 
 ## Added
